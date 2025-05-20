@@ -1,0 +1,25 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "En este ejercicio, crearemos una aplicación simple de administración de productos usando JavaScript. Usaremos los test unitarios para asegurarnos de que nuestro código funcione según lo esperado. Para nuestro testing usaremos Jest.",
+  "main": "products.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node --watcher products.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroSanRoman/jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroSanRoman/jest/issues"
+  },
+  "homepage": "https://github.com/PedroSanRoman/jest#readme",
+  "dependencies": {
+    "express": "5.1.0",
+    "jest": "29.7.0"
+  }
+}
